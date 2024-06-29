@@ -95,38 +95,3 @@ int main(int argc, char *argv[]) {
     tabla(numero);
     return 0;
 }
-
-
-//printf("El número entero es: %d\n", numero);
-
-/*
-int main(int argc, char *argv[]) {
-    if (argc == 1) {
-        str_print("Error");
-        return 0; 
-    }
-
-    int x;
-    x = atoi
-
-    int i;
-    i = 1;
-    while ( i < argc ){
-        if (i%2!=0)
-        {
-            char *str = argv[i];
-            str_print(str);
-        }
-        else
-        {
-            char *ptr = argv[i];
-            str_inv(ptr);
-        }
-
-        i++;
-    }
-
-    
-    return 0;
-}
-*/
